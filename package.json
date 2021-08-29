@@ -4,6 +4,7 @@
   "description": "Piped proxy that injects OG and Twitter meta",
   "main": "app.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

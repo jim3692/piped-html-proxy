@@ -1,0 +1,25 @@
+{
+  "name": "piped-html-proxy",
+  "version": "0.0.1",
+  "description": "Piped proxy that injects OG and Twitter meta",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "piped",
+    "meta",
+    "embed",
+    "youtube"
+  ],
+  "author": "jim3692",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "jsdom": "^17.0.0"
+  }
+}

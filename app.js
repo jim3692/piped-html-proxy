@@ -41,6 +41,11 @@ app.get('/watch', async (req, res) => {
     const ogMeta = createOgMeta(html, videoId, streams)
     if (!ogMeta || !ogMeta.length) return
 
+    const oldMeta = [...html.window.document.head.querySelectorAll('meta[property]')]
+    for (const om of oldMeta) {
+      om.remove()
+    }
+
     for (const tag of ogMeta) {
       html.window.document.head.appendChild(tag)
     }

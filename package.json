@@ -16,7 +16,7 @@
   "author": "jim3692",
   "license": "MIT",
   "devDependencies": {
-    "standard": "16.0.3"
+    "standard": "17.1.2"
   },
   "dependencies": {
     "axios": "1.7.7",

@@ -18,7 +18,7 @@ jobs:
     uses: JuniorJPDJ/containers/.github/workflows/docker-parallel-multiarch-build.yml@master
     with:
       title: piped-html-proxy
-      platforms: 'linux/amd64,linux/386,linux/arm/v7,linux/arm64'
+      platforms: 'linux/amd64,linux/arm/v7,linux/arm64'
       buildkit-mount-caches: '{"home-cache": "/root/.cache", "home-cargo": "/root/.cargo"}'
       buildkit-mount-cache-ids-append-platform: true
       registry: ghcr.io
